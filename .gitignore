@@ -1,0 +1,30 @@
+# ===== 密钥 / 凭据（务必忽略，防止误提交真实密钥）=====
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.keystore
+*.mnemonic
+secrets.json
+secrets.*.json
+
+# ===== Foundry 构建产物（可由 forge build 重新生成）=====
+out/
+cache/
+broadcast/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ===== 操作系统 / 编辑器 =====
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
